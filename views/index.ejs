@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script type='text/javascript' src='/javascripts/player.js'></script>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+
+    <input id="range" type="range" value="50" max="100" step="1">
+    <progress id="progress" value="50" max="100"></progress>
+    <progress id="volume" value="50" max="100"></progress>
+    <div id="bar"></div>
+    <div id="playlist"></div>
+    <div id="loading">loading</div>
+    <div id="track"></div>
+    <div id="timer"></div>
+    <div id="duration"></div>
+    <div id="wave"></div>
+    <div id="list"></div>
+    <div id="volume"></div>
+    <div id="barEmpty"></div>
+    <div id="barFull"></div>
+    <div id="sliderButton"></div>
+
+    <button id="playBtn">playBtn</button>
+    <button id="pauseBtn">pauseBtn</button>
+    <button id="prevBtn">prevBtn</button>
+    <button id="nextBtn">nextBtn</button>
+    <button id="playlistBtn">playlistBtn</button>
+    <button id="pitchBtn">pitchBtn</button>
+    <button id="volumeBtn">volumeBtn</button>
+    <button id="volume">volume</button>
+  </body>
+</html>
